@@ -1,9 +1,8 @@
-
 var fromCamel = require('from-camel-case');
 
 
 /**
- * Expose `fromCamelCase`.
+ * Expose `toSpaceCase`.
  */
 
 module.exports = toSpaceCase;
