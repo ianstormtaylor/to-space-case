@@ -2,11 +2,11 @@
   "name": "to-space-case",
   "repo": "ianstormtaylor/to-space-case",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert a non-space-case string to a space-case string.",
   "keywords": ["space", "case", "spacecase", "string"],
   "dependencies": {
-    "ianstormtaylor/from-camel-case": "0.0.1"
+    "ianstormtaylor/from-camel-case": "0.0.2"
   },
   "development": {
     "component/assert": "*"
