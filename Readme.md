@@ -14,7 +14,6 @@ var space = require('to-space-case');
 space('camelCase');  // "camel case"
 space('snake_case'); // "snake case"
 space('dot.case');   // "dot case"
-space('weird[case'); // "weird case"
 ```
 
 ## API

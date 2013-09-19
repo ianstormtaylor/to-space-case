@@ -3,32 +3,28 @@ describe('to-space-case', function () {
 var assert = require('assert');
 var space = require('to-space-case');
 
-it('space case', function () {
-  assert('space case' == space('space case'));
+it('shouldnt touch space case', function () {
+  assert('a space case string' == space('a space case string'));
 });
 
-it('camelCase', function () {
-  assert('camel case' == space('camelCase'));
+it('should convert camel case', function () {
+  assert('a camel case string' == space('aCamelCaseString'));
 });
 
-it('snake_case', function () {
-  assert('snake case' == space('snake_case'));
+it('should convert snake case', function () {
+  assert('a snake case string' == space('a_snake_case_string'));
 });
 
-it('dot.case', function () {
-  assert('dot case' == space('dot.case'));
+it('should convert dot case', function () {
+  assert('a dot case string' == space('a.dot.case.string'));
 });
 
-it('weird[case', function () {
-  assert('weird case' == space('weird[case'));
+it('should convert title case', function () {
+  assert('a title case of string' == space('A Title: Case of String'));
 });
 
-it('something weirdlyInBetween_all', function () {
-  assert('something weirdly in between all' == space('something weirdlyInBetween_all'));
-});
-
-it('something With CAPS', function () {
-  assert('something with caps' == space('something With CAPS'));
+it('should convert constant case', function () {
+  assert('a constant case string' == space('A_CONSTANT_CASE_STRING'));
 });
 
 });
