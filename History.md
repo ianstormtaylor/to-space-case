@@ -1,3 +1,7 @@
+0.0.3 - September 18, 2013
+--------------------------
+* update `from-camel-case`
+
 0.0.2 - September 18, 2013
 --------------------------
 * handle multiple spaces
