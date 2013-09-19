@@ -1,6 +1,6 @@
 # to-space-case
 
-  Convert a non-space-case string to a space-case string.
+  Convert a string to a space case.
 
 ## Installation
 
