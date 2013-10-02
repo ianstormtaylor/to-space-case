@@ -1,11 +1,11 @@
 {
   "name": "to-space-case",
-  "repoistory": "git://github.com/ianstormtaylor/to-space-case.git",
+  "repository": "git://github.com/ianstormtaylor/to-space-case.git",
   "license": "MIT",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Convert a string to space case.",
   "keywords": ["space", "case", "spacecase", "string"],
   "dependencies": {
-    "to-no-case": "0.1.0"
+    "to-no-case": "0.1.1"
   }
 }

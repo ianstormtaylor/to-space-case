@@ -1,3 +1,7 @@
+0.1.2 - October 1, 2013
+-----------------------
+* update `to-no-case`
+
 0.1.1 - September 18, 2013
 --------------------------
 * update `to-no-case`

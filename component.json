@@ -2,7 +2,7 @@
   "name": "to-space-case",
   "repo": "ianstormtaylor/to-space-case",
   "license": "MIT",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Convert a non-space-case string to a space-case string.",
   "keywords": ["space", "case", "spacecase", "string"],
   "dependencies": {
