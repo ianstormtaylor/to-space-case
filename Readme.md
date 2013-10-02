@@ -5,6 +5,7 @@
 ## Installation
 
     $ component install ianstormtaylor/to-space-case
+    $ npm install to-space-case
 
 ## Example
 
