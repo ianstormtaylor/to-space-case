@@ -23,4 +23,7 @@ describe('to-space-case', function () {
 
   for (var key in strings) convert(key);
 
+  it('should not leave space at the ends of a string', function () {
+    assert('this is a string' == space('_this_is_a_string_'));
+  });
 });
