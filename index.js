@@ -18,7 +18,7 @@ module.exports = toSpaceCase;
 
 
 function toSpaceCase (string) {
-  return clean(string).replace(/[\W_]+(.|$)/g, function (matches, match) {
-    return match ? ' ' + match : '';
+  return clean(string).replace(/(^|.)[\W_]+(.|$)/g, function (matches, left, right) {
+    return left && right ? left + ' ' + right : left + right;
   });
 }
