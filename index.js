@@ -1,13 +1,11 @@
 
-var clean = require('to-no-case');
-
+var clean = require('to-no-case')
 
 /**
- * Expose `toSpaceCase`.
+ * Export.
  */
 
-module.exports = toSpaceCase;
-
+module.exports = toSpaceCase
 
 /**
  * Convert a `string` to space case.
@@ -16,9 +14,8 @@ module.exports = toSpaceCase;
  * @return {String}
  */
 
-
-function toSpaceCase (string) {
+function toSpaceCase(string) {
   return clean(string).replace(/[\W_]+(.|$)/g, function (matches, match) {
-    return match ? ' ' + match : '';
-  });
+    return match ? ' ' + match : ''
+  }).trim()
 }
