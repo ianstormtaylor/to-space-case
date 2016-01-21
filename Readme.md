@@ -14,12 +14,12 @@ $ npm install to-space-case
 ## Example
 
 ```js
-var space = require('to-space-case');
+var toSpaceCase = require('to-space-case')
 
-space('camelCase');            // "camel case"
-space('snake_case');           // "snake case"
-space('dot.case');             // "dot case"
-space('-RAnDom -jUNk$__loL!')  // "random junk lol"
+toSpaceCase('camelCase')             // "camel case"
+toSpaceCase('snake_case')            // "snake case"
+toSpaceCase('dot.case')              // "dot case"
+toSpaceCase('-RAnDom -jUNk$__loL!')  // "random junk lol"
 ```
 
 
