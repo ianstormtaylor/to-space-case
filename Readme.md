@@ -1,7 +1,7 @@
 
-# to-space-case
+# to-space-case [![Build Status](https://travis-ci.org/ianstormtaylor/to-space-case.svg?branch=master)](https://travis-ci.org/ianstormtaylor/to-space-case)
 
-Convert a string to a space case.
+Convert a string to a space case. Part of the series of [case helpers](https://github.com/ianstormtaylor/to-case).
 
 
 ## Installation
